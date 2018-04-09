@@ -83,6 +83,23 @@ console.log(tags);
 var tagsArray = tags.split(", ");
 console.log(tagsArray);
 
+/* tablice/ arrays */
+var myArray = [];   // definiowanie zmiennej jako pusta tablica
+myArray[0] = 25     // dodawnie 25 do tablicy
+myArray[1] = 35     //...
+myArray[2] = true   // różne wartości
+myArray[3] = "hello world"
+console.log(myArray);
+
+myArray[2] = false // update
+console.log(myArray);
+
+var myArray2 = [10,20,true,"hi"]; // tablica definiowana krótko
+console.log(myArray2);
+console.log(myArray2.length);
+myArray2.sort();
+myArray2.reverse();
+myArray2.
 
 
 
