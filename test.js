@@ -21,11 +21,11 @@ aSrednia(2,4);*/
 var a = "hello";
 var b = 5;
 
-if (!isNaN(a)) {            // double negative
+if (!isNaN(a)) {            // double negative, jeśli to jest numer, to wykonaj:
     console.log(a + b);
 
 }
-else {
+else {                      // w przeciwnym wypadku (jeśli to nie jest numer), wykonaj to:
     console.log("To nie jest numer, gosciu");
     console.log("Podałeś a równe - " + (a) );
 }
@@ -33,7 +33,9 @@ else {
 
 
 
-
+/* wyszukuje słowo ze zmiennej 'wprowadź' w 'myString' , sprawdza i podaje w konsoli,
+ * można użyć okienek do wprowadzania prompt("Wprowadź szukane słowo:") w zmiennej 'wprowadź',
+ * następnie zamiast konsoli użyć okienka js, alert("Podane słowo to " + wprowadź);  */
 var myString = "Jestem nowym stringiem";
 var wprowadź = "hello";
 
@@ -49,18 +51,16 @@ console.log("Wprowadzone słowo to: " + wprowadź);
 
 
 
-
-/*
+/* indexOf - wyszukuje słowo "ninja" w zmiennej myString */
 if(myString.indexOf("ninja") === -1){
     console.log("nie ma");
 }
 
-
+/* toLowerCase() - sprowadza do małych liter i porównuje (true or false) */
 var string1 = "abc";
 var string2 = "ABC";
 
 console.log(string1.toLowerCase() === string2.toLowerCase());
-*/
 
 
 
