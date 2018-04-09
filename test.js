@@ -120,9 +120,16 @@ splitString(tempestString, space);
 splitString(tempestString);
 splitString(monthString, comma);
 
-/*   /*   The array has 10 elements: Oh / brave / new / world / that / has / such / people / in / it.  */  */
-
-array.join(",")     // tablica -> string
+/*   /*   The array has 10 elements: Oh / brave / new / world / that / has / such / people / in / it.  */
+/*
+        array.join(",")     // tablica -> string
+*/
+/* */
+var myArray5 = ["jeden, dwa, trzy, cztery, pięć"]
+var myArray5toString = myArray5.join(", ")          // robi z tablicy string
+console.log(myArray5toString);
+var myArray6 = myArray5toString.split(", ");
+console.log(myArray6);
 
 
 
