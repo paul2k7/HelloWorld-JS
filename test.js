@@ -76,7 +76,7 @@ console.log(str3);
 
 
 
-/* SPLIT function - */
+/* SPLIT function - dodaje*/
 var tags = "mieso, slodycze, ciastka, inne";
 console.log(tags);
 
