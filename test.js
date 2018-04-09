@@ -124,7 +124,7 @@ splitString(monthString, comma);
 /*
         array.join(",")     // tablica -> string
 */
-/* */
+/* array to string i odwrotnie */
 var myArray5 = ["jeden, dwa, trzy, cztery, pięć"]
 var myArray5toString = myArray5.join(", ")          // robi z tablicy string
 console.log(myArray5toString);
