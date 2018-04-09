@@ -64,7 +64,7 @@ console.log(string1.toLowerCase() === string2.toLowerCase());
 
 
 
-
+/* SLICE function - wycina od a do b lub od a, w tym przypadku llo wor*/
 var str = "hello world";
 console.log(str);
 
@@ -74,11 +74,16 @@ console.log(str2);
 var str3 = str.slice(2);
 console.log(str3);
 
+
+
+/* SPLIT function - */
 var tags = "mieso, slodycze, ciastka, inne";
 console.log(tags);
 
 var tagsArray = tags.split(", ");
 console.log(tagsArray);
+
+
 
 
 
