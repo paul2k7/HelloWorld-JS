@@ -122,7 +122,7 @@ splitString(monthString, comma);
 
 /*   /*   The array has 10 elements: Oh / brave / new / world / that / has / such / people / in / it.  */  */
 
-
+array.join(",")     // tablica -> string
 
 
 
