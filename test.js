@@ -76,7 +76,7 @@ console.log(str3);
 
 
 
-/* SPLIT function - dodaje*/
+/* SPLIT function - rozdziela poszczególne dane w string na substring*/
 var tags = "mieso, slodycze, ciastka, inne";
 console.log(tags);
 
