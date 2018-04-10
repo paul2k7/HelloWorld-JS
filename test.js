@@ -64,7 +64,7 @@ console.log(string1.toLowerCase() === string2.toLowerCase());
 
 
 
-/* SLICE function - wycina od a do b lub od a, w tym przypadku llo wor*/
+/* SLICE function - wydobywa ciąg znaków od a do b lub od a, w tym przypadku llo wor*/
 var str = "hello world";
 console.log(str);
 
@@ -130,6 +130,8 @@ var myArray5toString = myArray5.join(", ")          // robi z tablicy string
 console.log(myArray5toString);
 var myArray6 = myArray5toString.split(", ");
 console.log(myArray6);
+
+/*  */
 
 
 
