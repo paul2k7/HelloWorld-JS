@@ -189,7 +189,24 @@ car2.odległość(120, 3);
 
 
 
-/* --->  */
+/*   */
+
+var myCar = {
+    speed: 120,
+    /*odległość: prompt("Wprowadź odległość: "),*/
+    time: function(){
+        console.log("Prędkość: " + myCar.speed + ", Wprowadzona odległość: " + myCar.odległość + " Czas: " +
+            ((myCar.odległość / myCar.speed)*60).toFixed(2));
+        }
+    }
+
+myCar.time();
+
+/**/
+
+
+
+
 
 
 
