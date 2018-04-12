@@ -1,5 +1,5 @@
 var nowe = {
-    dane: "dane", // tutaj poprawić i usunąć
+    dane: "dane", // poprawione
     dane2: function(){console.log("Doesnt matter");}
 }
 
