@@ -131,7 +131,59 @@ console.log(myArray5toString);
 var myArray6 = myArray5toString.split(", ");
 console.log(myArray6);
 
-/*  */
+/* obiekty */
+var myArray = new Array();
+myArray [0] = 8;
+myArray [1] = "hello";
+
+/* */
+var myCar = new Object();
+myCar.speed = 50;
+myCar.driver = "Paweł";
+myCar.drive = function(){console.log("now driving");};
+
+myCar.drive();  // wywołuje funkcje
+
+/* */
+var myCar2 = {
+    maxSpeed: 70,
+    driver: "Ninja",
+    drive: function (speed, time){console.log(speed * time);}
+}
+console.log(myCar2.maxSpeed);
+myCar2.drive(70, 3);
+
+
+/* wprowadza odległośc i liczy czas podróży */
+
+var car = new Object();
+car.speed = 120;
+car.time = 15;
+/*car.distance = prompt("Wprowadź odległość: ");*/
+car.czas = ((car.distance / car.speed)*60).toFixed(2);
+
+
+car.podsumowanie = function(){
+    console.log("Prędkość: " + car.speed + ", Wprowadzona odległość: " + car.distance + ", Czas: " + car.czas);
+};
+car.podsumowanie();
+
+/* */
+
+var car2 = {
+    kierowca: "Paweł",
+    destination: "home",
+    odległość: function(prędkość, czas){
+        console.log(prędkość * czas);
+    }
+}
+car2.odległość(120, 3);
+
+
+
+
+
+
 
 
 
