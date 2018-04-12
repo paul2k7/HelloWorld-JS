@@ -174,9 +174,16 @@ var car2 = {
     kierowca: "Paweł",
     destination: "home",
     odległość: function(prędkość, czas){
-        console.log(prędkość * czas);
+        console.log(prędkość * czas);},
+    driverLog: function(){
+        console.log("Kierowcą jest: " + this.kierowca); // this = car2
     }
-}
+
+};
+
+car2.driverLog();
+console.log(car2.kierowca);
+console.log(car2.destination);
 car2.odległość(120, 3);
 
 
