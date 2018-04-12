@@ -1,1 +1,1 @@
-<h1>Projekt służy do praktykowania HTML, CSS, JavaScript i GitHub.</h1>
+Projekt służy do praktykowania HTML, CSS, JavaScript i GitHub.
